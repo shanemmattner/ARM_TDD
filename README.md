@@ -30,6 +30,9 @@ Motivated by a desire to learn TDD and produce great code.
 To run this project clone the repo, update the Buildroot submodule, generate the RSA key, then build the project.
 ```
 $ git clone https://github.com/shanemmattner/arm_tdd.git
+$ docker pull throwtheswitch/drsurly-course2:latest
+$ docker run -it --rm -v $~/Desktop/ARM_TDD/labs throwtheswitch/drsurly-course2:latest
+# course setup 
 ```
 
 ![images_folder](readme_images/images_folder.png)
